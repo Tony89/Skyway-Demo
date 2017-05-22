@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC89A17A8DF9A0D6C3F8E7BE /* Pods_Skyway_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F80F46EA9BA1A250E179B7 /* Pods_Skyway_Demo.framework */; };
 		EA4115091EC40DA500D7575C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4115081EC40DA500D7575C /* AppDelegate.swift */; };
 		EA41150B1EC40DA500D7575C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41150A1EC40DA500D7575C /* ViewController.swift */; };
 		EA41150E1EC40DA500D7575C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41150C1EC40DA500D7575C /* Main.storyboard */; };
 		EA4115101EC40DA500D7575C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA41150F1EC40DA500D7575C /* Assets.xcassets */; };
 		EA4115131EC40DA500D7575C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4115111EC40DA500D7575C /* LaunchScreen.storyboard */; };
+		EA41151B1EC4100C00D7575C /* SkywayUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41151A1EC4100C00D7575C /* SkywayUtil.swift */; };
+		EA878AAD1EC43A6800C55EE2 /* CounselorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA878AAC1EC43A6800C55EE2 /* CounselorTableViewController.swift */; };
+		EA878AAF1EC4442800C55EE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AAE1EC4442800C55EE2 /* AudioToolbox.framework */; };
+		EA878AB11EC4443000C55EE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AB01EC4443000C55EE2 /* AVFoundation.framework */; };
+		EA878AB31EC4443800C55EE2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AB21EC4443800C55EE2 /* CoreMedia.framework */; };
+		EA878AB51EC4444200C55EE2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AB41EC4444200C55EE2 /* CoreVideo.framework */; };
+		EA878AB71EC4444B00C55EE2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AB61EC4444B00C55EE2 /* VideoToolbox.framework */; };
+		EA878AB91EC4445500C55EE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AB81EC4445500C55EE2 /* CoreGraphics.framework */; };
+		EA878ABB1EC4445E00C55EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878ABA1EC4445E00C55EE2 /* Foundation.framework */; };
+		EA878ABD1EC4446800C55EE2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878ABC1EC4446800C55EE2 /* GLKit.framework */; };
+		EA878ABF1EC4447000C55EE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878ABE1EC4447000C55EE2 /* SystemConfiguration.framework */; };
+		EA878AC41EC444C200C55EE2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AC01EC4449300C55EE2 /* libc++.tbd */; };
+		EA878AC61EC444CB00C55EE2 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AC51EC444CB00C55EE2 /* libstdc++.6.0.9.tbd */; };
+		EA878AC81EC444D200C55EE2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AC71EC444D200C55EE2 /* libsqlite3.tbd */; };
+		EA878ACA1EC444DD00C55EE2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA878AC91EC444DD00C55EE2 /* libicucore.tbd */; };
+		EACBE7341EC9B18F004C0E16 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBE7331EC9B18F004C0E16 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50FBF6FC6634EE3BF0AF157C /* Pods-Skyway-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyway-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skyway-Demo/Pods-Skyway-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B97357E5B17DE2AEB849E5 /* Pods-Skyway-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyway-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skyway-Demo/Pods-Skyway-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		C1F80F46EA9BA1A250E179B7 /* Pods_Skyway_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skyway_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4115051EC40DA500D7575C /* Skyway-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skyway-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4115081EC40DA500D7575C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA41150A1EC40DA500D7575C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,24 @@
 		EA41150F1EC40DA500D7575C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4115121EC40DA500D7575C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA4115141EC40DA500D7575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41151A1EC4100C00D7575C /* SkywayUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkywayUtil.swift; sourceTree = "<group>"; };
+		EA41151D1EC4125B00D7575C /* Skyway-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skyway-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA878AAC1EC43A6800C55EE2 /* CounselorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselorTableViewController.swift; sourceTree = "<group>"; };
+		EA878AAE1EC4442800C55EE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EA878AB01EC4443000C55EE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA878AB21EC4443800C55EE2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EA878AB41EC4444200C55EE2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EA878AB61EC4444B00C55EE2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		EA878AB81EC4445500C55EE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA878ABA1EC4445E00C55EE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA878ABC1EC4446800C55EE2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EA878ABE1EC4447000C55EE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA878AC01EC4449300C55EE2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EA878AC21EC4449E00C55EE2 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		EA878AC51EC444CB00C55EE2 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		EA878AC71EC444D200C55EE2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EA878AC91EC444DD00C55EE2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		EACBE7331EC9B18F004C0E16 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA878ACA1EC444DD00C55EE2 /* libicucore.tbd in Frameworks */,
+				EA878AC81EC444D200C55EE2 /* libsqlite3.tbd in Frameworks */,
+				EA878AC61EC444CB00C55EE2 /* libstdc++.6.0.9.tbd in Frameworks */,
+				EA878AC41EC444C200C55EE2 /* libc++.tbd in Frameworks */,
+				EA878ABF1EC4447000C55EE2 /* SystemConfiguration.framework in Frameworks */,
+				EA878ABD1EC4446800C55EE2 /* GLKit.framework in Frameworks */,
+				EA878ABB1EC4445E00C55EE2 /* Foundation.framework in Frameworks */,
+				EA878AB91EC4445500C55EE2 /* CoreGraphics.framework in Frameworks */,
+				EA878AB71EC4444B00C55EE2 /* VideoToolbox.framework in Frameworks */,
+				EA878AB51EC4444200C55EE2 /* CoreVideo.framework in Frameworks */,
+				EA878AB31EC4443800C55EE2 /* CoreMedia.framework in Frameworks */,
+				EA878AB11EC4443000C55EE2 /* AVFoundation.framework in Frameworks */,
+				EA878AAF1EC4442800C55EE2 /* AudioToolbox.framework in Frameworks */,
+				AC89A17A8DF9A0D6C3F8E7BE /* Pods_Skyway_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4728418E0EB0D3E8FA0E78C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA878AC91EC444DD00C55EE2 /* libicucore.tbd */,
+				EA878AC71EC444D200C55EE2 /* libsqlite3.tbd */,
+				EA878AC51EC444CB00C55EE2 /* libstdc++.6.0.9.tbd */,
+				EA878AC21EC4449E00C55EE2 /* libstdc++.tbd */,
+				EA878AC01EC4449300C55EE2 /* libc++.tbd */,
+				EA878ABE1EC4447000C55EE2 /* SystemConfiguration.framework */,
+				EA878ABC1EC4446800C55EE2 /* GLKit.framework */,
+				EA878ABA1EC4445E00C55EE2 /* Foundation.framework */,
+				EA878AB81EC4445500C55EE2 /* CoreGraphics.framework */,
+				EA878AB61EC4444B00C55EE2 /* VideoToolbox.framework */,
+				EA878AB41EC4444200C55EE2 /* CoreVideo.framework */,
+				EA878AB21EC4443800C55EE2 /* CoreMedia.framework */,
+				EA878AB01EC4443000C55EE2 /* AVFoundation.framework */,
+				EA878AAE1EC4442800C55EE2 /* AudioToolbox.framework */,
+				C1F80F46EA9BA1A250E179B7 /* Pods_Skyway_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6D816228E9E60230820121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FBF6FC6634EE3BF0AF157C /* Pods-Skyway-Demo.debug.xcconfig */,
+				A1B97357E5B17DE2AEB849E5 /* Pods-Skyway-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA4114FC1EC40DA500D7575C = {
 			isa = PBXGroup;
 			children = (
 				EA4115071EC40DA500D7575C /* Skyway-Demo */,
 				EA4115061EC40DA500D7575C /* Products */,
+				DA6D816228E9E60230820121 /* Pods */,
+				4728418E0EB0D3E8FA0E78C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +139,16 @@
 		EA4115071EC40DA500D7575C /* Skyway-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				EA41151A1EC4100C00D7575C /* SkywayUtil.swift */,
 				EA4115081EC40DA500D7575C /* AppDelegate.swift */,
 				EA41150A1EC40DA500D7575C /* ViewController.swift */,
 				EA41150C1EC40DA500D7575C /* Main.storyboard */,
 				EA41150F1EC40DA500D7575C /* Assets.xcassets */,
 				EA4115111EC40DA500D7575C /* LaunchScreen.storyboard */,
 				EA4115141EC40DA500D7575C /* Info.plist */,
+				EA41151D1EC4125B00D7575C /* Skyway-Demo-Bridging-Header.h */,
+				EA878AAC1EC43A6800C55EE2 /* CounselorTableViewController.swift */,
+				EACBE7331EC9B18F004C0E16 /* StartViewController.swift */,
 			);
 			path = "Skyway-Demo";
 			sourceTree = "<group>";
@@ -71,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA4115171EC40DA500D7575C /* Build configuration list for PBXNativeTarget "Skyway-Demo" */;
 			buildPhases = (
+				BC38C17505EB088659B6C648 /* [CP] Check Pods Manifest.lock */,
 				EA4115011EC40DA500D7575C /* Sources */,
 				EA4115021EC40DA500D7575C /* Frameworks */,
 				EA4115031EC40DA500D7575C /* Resources */,
+				0F949006693D86E3591B730E /* [CP] Embed Pods Frameworks */,
+				58472CB016BB2EA20F497630 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +224,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F949006693D86E3591B730E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skyway-Demo/Pods-Skyway-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58472CB016BB2EA20F497630 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skyway-Demo/Pods-Skyway-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC38C17505EB088659B6C648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA4115011EC40DA500D7575C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACBE7341EC9B18F004C0E16 /* StartViewController.swift in Sources */,
 				EA41150B1EC40DA500D7575C /* ViewController.swift in Sources */,
 				EA4115091EC40DA500D7575C /* AppDelegate.swift in Sources */,
+				EA878AAD1EC43A6800C55EE2 /* CounselorTableViewController.swift in Sources */,
+				EA41151B1EC4100C00D7575C /* SkywayUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +402,32 @@
 		};
 		EA4115181EC40DA500D7575C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FBF6FC6634EE3BF0AF157C /* Pods-Skyway-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DAB2NZFLN5;
 				INFOPLIST_FILE = "Skyway-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.lifetime.Skyway-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Skyway-Demo/Skyway-Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EA4115191EC40DA500D7575C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B97357E5B17DE2AEB849E5 /* Pods-Skyway-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DAB2NZFLN5;
 				INFOPLIST_FILE = "Skyway-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.lifetime.Skyway-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Skyway-Demo/Skyway-Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +451,7 @@
 				EA4115191EC40DA500D7575C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
